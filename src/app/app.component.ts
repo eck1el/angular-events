@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'proyecto6';
+  title = 'project 6';
+  public num:number = 1;
+
+  add(){
+    this.num++;
+  }
+
+  subtract(){
+    this.num--;
+  }
 }
